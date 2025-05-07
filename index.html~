@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folding Polyhedron Net</title> <style>
+        body { margin: 0; font-family: sans-serif; background-color: #f0f0f0; overflow: hidden; }
+        canvas { display: block; }
+        #info { position: absolute; top: 10px; width: 100%; text-align: center; z-index: 99; display: block; color: #333; padding-bottom: 30px; pointer-events: none; }
+        #controls {
+            position: absolute;
+            top: 50px; /* Lowered */
+            left: 10px;
+            z-index: 100;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            /* Arrange controls vertically */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align items to the start (left) */
+            gap: 10px; /* Adjust gap */
+        }
+        /* Style group divs */
+        #controls > div {
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Gap within groups */
+            width: 100%; /* Make groups take full width */
+            justify-content: flex-start; /* Align content start */
+        }
+        button { padding: 5px 15px; font-size: 14px; cursor: pointer; }
+        label { font-size: 14px; user-select: none; white-space: nowrap; }
+        input[type="range"] { width: 150px; vertical-align: middle; }
+        input[type="checkbox"] { vertical-align: middle; margin-right: 5px; }
+        input[type="file"] { font-size: 12px; }
+        #speedValue { font-size: 14px; min-width: 40px; text-align: right; }
+        /* Style file input container */
+        #file-input-container label {
+             margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">Folding Polyhedron Net</div>
+    <div id="container"></div>
+
+    <div id="controls">
+        <div>
+            <button id="foldButton">Fold</button>
+            <button id="pauseButton" disabled>Pause</button>
+        </div>
+        <div>
+            <label for="speedSlider">Speed:</label>
+            <input type="range" id="speedSlider" min="200" max="4000" value="500" step="100"> <span id="speedValue">500 ms</span>
+        </div>
+        <div>
+            <input type="checkbox" id="toggleNormals" name="toggleNormals"> <label for="toggleNormals">Show Normals</label>
+        </div>
+        <div id="file-input-container">
+            <label for="netFile">Load Net:</label>
+            <input type="file" id="netFile" accept=".json">
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.163.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.163.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
