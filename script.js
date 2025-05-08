@@ -1205,7 +1205,7 @@ presetNets.addEventListener("change", async (e) => {
     const netName = e.target.value;
     if (!netName) return;
     try {
-        const response = await fetch(`/nets/${netName}.json`);
+        const response = await fetch(`nets/${netName}.json`);
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         const netData = await response.json();
         console.log(`Processing preset net: ${netName}`);
