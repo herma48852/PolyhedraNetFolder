@@ -1,0 +1,51 @@
+{
+  "description": "User-generated Net (App 1 Base ID: 0) (3 connections)",
+  "baseFace": {
+    "noSides": 3,
+    "color": "red"
+  },
+  "connections": [
+    {
+      "from": 2,
+      "noSides": 3,
+      "color": "green",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 1,
+      "toEdge": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": 3,
+      "noSides": 3,
+      "color": "blue",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 2,
+      "toEdge": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": 4,
+      "noSides": 3,
+      "color": "yellow",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 2,
+      "toEdge": [
+        2,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Truncated Octahedron net definition (from net.js)",
+  "baseFace": {
+    "noSides": 4,
+    "color": "red"
+  },
+  "connections": [
+    { "from": 2,  "noSides": 6, "color": "yellow",  "fromEdge": [4, 3], "to": 1, "toEdge": [0, 1] },
+    { "from": 3,  "noSides": 6, "color": "yellow",  "fromEdge": [4, 3], "to": 2, "toEdge": [0, 1] },
+    { "from": 4,  "noSides": 6, "color": "yellow",  "fromEdge": [3, 2], "to": 1, "toEdge": [3, 0] },
+    { "from": 5,  "noSides": 6, "color": "yellow",  "fromEdge": [3, 2], "to": 4, "toEdge": [5, 0] },
+    { "from": 6,  "noSides": 4, "color": "red",     "fromEdge": [2, 3], "to": 5, "toEdge": [2, 1] },
+    { "from": 7,  "noSides": 4, "color": "red",     "fromEdge": [1, 2], "to": 5, "toEdge": [0, 5] },
+    { "from": 8,  "noSides": 4, "color": "red",     "fromEdge": [0, 1], "to": 5, "toEdge": [4, 3] },
+    { "from": 9,  "noSides": 6, "color": "yellow",  "fromEdge": [0, 1], "to": 1, "toEdge": [3, 2] },
+    { "from": 10, "noSides": 6, "color": "yellow",  "fromEdge": [0, 1], "to": 9, "toEdge": [4, 3] },
+    { "from": 11, "noSides": 6, "color": "yellow",  "fromEdge": [0, 5], "to": 1, "toEdge": [1, 2] },
+    { "from": 12, "noSides": 6, "color": "yellow",  "fromEdge": [0, 5], "to": 11, "toEdge": [2, 3] },
+    { "from": 13, "noSides": 4, "color": "red",     "fromEdge": [3, 2], "to": 12, "toEdge": [0, 1] },
+    { "from": 14, "noSides": 4, "color": "red",     "fromEdge": [0, 1], "to": 12, "toEdge": [5, 4] }
+  ]
+}

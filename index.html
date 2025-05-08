@@ -62,8 +62,22 @@
             <label for="netFile">Load Net:</label>
             <input type="file" id="netFile" accept=".json">
         </div>
+	<div id="preset-net-container">
+          <label for="presetNets">Preset Nets:</label>
+          <select id="presetNets">
+            <option value="">Select a preset net</option>
+            <option value="tetrahedron-top">Tetrahedron</option>
+            <option value="cube-top">Cube</option>
+            <option value="truncated-cube-top">Truncated Cube</option>
+            <option value="icosidodecahedron-top">Icosidodecahedron</option>
+            <option value="snub-cube-top">Snub Cube</option>
+            <option value="snub-dodecahedron-top">Snub Dodecahedron</option>
+            <option value="truncated-tetrahedron-top">Truncated Tetrahedron</option>
+            <option value="truncated-octahedron-top">Truncated Octahedron</option>
+            <option value="truncated-cuboctahedron-top">Truncated Cuboctahedron</option>
+          </select>
+	</div>
     </div>
-
     <script type="importmap">
         {
             "imports": {

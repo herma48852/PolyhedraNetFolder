@@ -1,0 +1,16 @@
+{
+  "description": "Some Polyhedron",
+  "baseFace": {
+    "noSides": 6,
+    "color": "red" 
+  },
+  "connections": [
+      { "from": 2,  "noSides": 3, "color": "blue",  "fromEdge": [1, 2], "to": 1, "toEdge": [1, 0] },
+      { "from": 3,  "noSides": 6, "color": "green", "fromEdge": [4, 5], "to": 1, "toEdge": [2, 1] },
+      { "from": 4,  "noSides": 3, "color": "blue",  "fromEdge": [0, 1], "to": 3, "toEdge": [4, 3] },
+      { "from": 5,  "noSides": 6, "color": "yellow",   "fromEdge": [5, 0], "to": 3, "toEdge": [3, 2] },
+      { "from": 6,  "noSides": 3, "color": "blue",  "fromEdge": [1, 2], "to": 5, "toEdge": [1, 0] },
+      { "from": 7,  "noSides": 6, "color": "purple", "fromEdge": [4, 5], "to": 5, "toEdge": [2, 1] },
+      { "from": 8,  "noSides": 3, "color": "blue",  "fromEdge": [0, 1], "to": 7, "toEdge": [4, 3] }
+  ]
+}

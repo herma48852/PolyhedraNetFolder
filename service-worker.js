@@ -1,13 +1,22 @@
 const CACHE_NAME = 'my-pwa-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/script.js',
-  '/tween.umd.js',
-  '/js/three.module.js',
-  '/js/OrbitControls.js',
-  '/icons/192.png',
-  '/icons/512.png'
+    '/',
+    '/index.html',
+    '/script.js',
+    '/tween.umd.js',
+    '/js/three.module.js',
+    '/js/OrbitControls.js',
+    '/nets/truncated-cube-top.json',
+    '/nets/icosidodecahedron-top.json',
+    '/nets/truncated-cuboctahedron-top.json',
+    '/nets/tetrahedron-top.json',
+    '/nets/snub-dodecahedron-top.json',
+    '/nets/cube-top.json',
+    '/nets/truncated-tetrahedron-top.json',
+    '/nets/truncated-octahedron-top.json',
+    '/nets/snub-cube-top.json',
+    '/icons/192.png',
+    '/icons/512.png'
 ];
 
 self.addEventListener('install', event => {

@@ -1200,5 +1200,23 @@ function animate(currentTime) {
     renderer.render(scene, camera);
 }
 
+const presetNets = document.getElementById("presetNets");
+presetNets.addEventListener("change", async (e) => {
+    const netName = e.target.value;
+    if (!netName) return;
+    try {
+        const response = await fetch(`/nets/${netName}.json`);
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        const netData = await response.json();
+        console.log(`Processing preset net: ${netName}`);
+        loadAndProcessNet(netData);
+    } catch (error) {
+        console.error("Error loading preset net:", error);
+        alert(`Error loading preset net: ${error.message}`);
+    } finally {
+        presetNets.value = "";
+    }
+});
+
 // --- Start Application ---
 init();
