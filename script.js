@@ -242,20 +242,20 @@ const POLYHEDRON_DATA = {
         },
     },
     "4.6.10": {
-        name: "Truncated Icosidodecahedron",
-        faceCounts: {
+	name: "Truncated Icosidodecahedron",
+	faceCounts: {
             4: 30,
             6: 20,
             10: 12,
-        },
-        foldAngles: {
+	},
+	foldAngles: {
             "4-6":  Math.acos((Math.sqrt(3) + Math.sqrt(15)) / 6), 
             "6-4":  Math.acos((Math.sqrt(3) + Math.sqrt(15)) / 6), 
-            "4-10": Math.acos(Math.sqrt((5 + Math.sqrt(5)）/ 10)),
-            "10-4": Math.acos(Math.sqrt((5 + Math.sqrt(5)）/ 10)),
-            "10-6": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))）/ 15)),
-            "6-10": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))）/ 15)),
-        },
+            "4-10": Math.acos(Math.sqrt((5 + Math.sqrt(5)) / 10)),
+            "10-4": Math.acos(Math.sqrt((5 + Math.sqrt(5)) / 10)),
+            "10-6": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))) / 15)),
+            "6-10": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))) / 15)),
+	},
     },
     "3.3.3.3.4": {
         name: "Snub Cube",
