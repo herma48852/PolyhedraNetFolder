@@ -253,8 +253,8 @@ const POLYHEDRON_DATA = {
             "6-4":  Math.acos((Math.sqrt(3) + Math.sqrt(15)) / 6), 
             "4-10": Math.acos(Math.sqrt((5 + Math.sqrt(5)）/ 10)),
             "10-4": Math.acos(Math.sqrt((5 + Math.sqrt(5)）/ 10)),
-	    "10-6": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))）/ 15)),
-	    "6-10": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))）/ 15)),
+            "10-6": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))）/ 15)),
+            "6-10": Math.acos(Math.sqrt((5 + (2 * Math.sqrt(5))）/ 15)),
         },
     },
     "3.3.3.3.4": {
