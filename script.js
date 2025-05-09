@@ -159,9 +159,9 @@ const POLYHEDRON_DATA = {
             10: 12,
         },
         foldAngles: {
-            "3-10": Math.acos(Math.sqrt(5 * (5 + 2 * Math.sqrt(5))) / 15),
-            "10-3": Math.acos(Math.sqrt(5 * (5 + 2 * Math.sqrt(5))) / 15),
-            "10-10": Math.acos((1 + 2 * Math.sqrt(5)) / 5),
+            "3-10": 0.6524, // ~37.38
+            "10-3": 0.6524, // ~37.38
+            "10-10": Math.acos(Math.sqrt(5) / 5)
         },
     },
     "5.6.6": {
