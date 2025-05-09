@@ -1,0 +1,443 @@
+{
+  "description": "User-generated Net (App 1 Base ID: 0) (31 connections)",
+  "baseFace": {
+    "noSides": 10,
+    "color": "#BDB2FF"
+  },
+  "connections": [
+    {
+      "from": 2,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        6,
+        5
+      ],
+      "to": 1,
+      "toEdge": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": 3,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 1,
+      "toEdge": [
+        1,
+        2
+      ]
+    },
+    {
+      "from": 4,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        8,
+        7
+      ],
+      "to": 1,
+      "toEdge": [
+        2,
+        3
+      ]
+    },
+    {
+      "from": 5,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 1,
+      "toEdge": [
+        3,
+        4
+      ]
+    },
+    {
+      "from": 6,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        0,
+        9
+      ],
+      "to": 1,
+      "toEdge": [
+        4,
+        5
+      ]
+    },
+    {
+      "from": 7,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 1,
+      "toEdge": [
+        5,
+        6
+      ]
+    },
+    {
+      "from": 8,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 1,
+      "toEdge": [
+        6,
+        7
+      ]
+    },
+    {
+      "from": 9,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 1,
+      "toEdge": [
+        7,
+        8
+      ]
+    },
+    {
+      "from": 10,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        4,
+        3
+      ],
+      "to": 1,
+      "toEdge": [
+        8,
+        9
+      ]
+    },
+    {
+      "from": 11,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 1,
+      "toEdge": [
+        9,
+        0
+      ]
+    },
+    {
+      "from": 12,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 2,
+      "toEdge": [
+        2,
+        3
+      ]
+    },
+    {
+      "from": 13,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        9,
+        8
+      ],
+      "to": 4,
+      "toEdge": [
+        3,
+        4
+      ]
+    },
+    {
+      "from": 14,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 6,
+      "toEdge": [
+        6,
+        7
+      ]
+    },
+    {
+      "from": 15,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 8,
+      "toEdge": [
+        8,
+        9
+      ]
+    },
+    {
+      "from": 16,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 10,
+      "toEdge": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": 17,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        8,
+        7
+      ],
+      "to": 13,
+      "toEdge": [
+        2,
+        3
+      ]
+    },
+    {
+      "from": 18,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 13,
+      "toEdge": [
+        7,
+        8
+      ]
+    },
+    {
+      "from": 19,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 13,
+      "toEdge": [
+        9,
+        0
+      ]
+    },
+    {
+      "from": 20,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 17,
+      "toEdge": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": 21,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        7,
+        6
+      ],
+      "to": 17,
+      "toEdge": [
+        1,
+        2
+      ]
+    },
+    {
+      "from": 22,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 17,
+      "toEdge": [
+        2,
+        3
+      ]
+    },
+    {
+      "from": 23,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        9,
+        8
+      ],
+      "to": 17,
+      "toEdge": [
+        3,
+        4
+      ]
+    },
+    {
+      "from": 24,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 17,
+      "toEdge": [
+        4,
+        5
+      ]
+    },
+    {
+      "from": 25,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 17,
+      "toEdge": [
+        5,
+        6
+      ]
+    },
+    {
+      "from": 26,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 17,
+      "toEdge": [
+        6,
+        7
+      ]
+    },
+    {
+      "from": 27,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 17,
+      "toEdge": [
+        8,
+        9
+      ]
+    },
+    {
+      "from": 28,
+      "noSides": 10,
+      "color": "#BDB2FF",
+      "fromEdge": [
+        5,
+        4
+      ],
+      "to": 17,
+      "toEdge": [
+        9,
+        0
+      ]
+    },
+    {
+      "from": 29,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 21,
+      "toEdge": [
+        3,
+        4
+      ]
+    },
+    {
+      "from": 30,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 23,
+      "toEdge": [
+        5,
+        6
+      ]
+    },
+    {
+      "from": 31,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 25,
+      "toEdge": [
+        7,
+        8
+      ]
+    },
+    {
+      "from": 32,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 28,
+      "toEdge": [
+        1,
+        2
+      ]
+    }
+  ]
+}
