@@ -12,6 +12,7 @@ const urlsToCache = [
     '/nets/tetrahedron-top.json',
     '/nets/snub-dodecahedron-top.json',
     '/nets/cube-top.json',
+    '/nets/icosahedron-top.json',
     '/nets/truncated-tetrahedron-top.json',
     '/nets/truncated-octahedron-top.json',
     '/nets/snub-cube-top.json',
