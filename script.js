@@ -245,7 +245,7 @@ const POLYHEDRON_DATA = {
         name: "Truncated Icosidodecahedron",
         faceCounts: {
             4: 30,
-            4: 20,
+            6: 20,
             10: 12,
         },
         foldAngles: {
