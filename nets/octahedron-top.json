@@ -1,0 +1,107 @@
+{
+  "description": "User-generated Net (App 1 Base ID: 0) (7 connections)",
+  "baseFace": {
+    "noSides": 3,
+    "color": "#FFADAD"
+  },
+  "connections": [
+    {
+      "from": 2,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 1,
+      "toEdge": [
+        1,
+        2
+      ]
+    },
+    {
+      "from": 3,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        2,
+        1
+      ],
+      "to": 1,
+      "toEdge": [
+        2,
+        0
+      ]
+    },
+    {
+      "from": 4,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 2,
+      "toEdge": [
+        1,
+        2
+      ]
+    },
+    {
+      "from": 5,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 2,
+      "toEdge": [
+        2,
+        0
+      ]
+    },
+    {
+      "from": 6,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 4,
+      "toEdge": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": 7,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        1,
+        0
+      ],
+      "to": 4,
+      "toEdge": [
+        1,
+        2
+      ]
+    },
+    {
+      "from": 8,
+      "noSides": 3,
+      "color": "#FFADAD",
+      "fromEdge": [
+        0,
+        2
+      ],
+      "to": 7,
+      "toEdge": [
+        1,
+        2
+      ]
+    }
+  ]
+}
